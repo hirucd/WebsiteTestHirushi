@@ -1,10 +1,6 @@
 # Cypress Automation - The Internet Herokuapp
 
-This project contains Cypress end-to-end tests that automate selected elements from [The Internet](https://the-internet.herokuapp.com/).
-
----
-
-## ✅ Features Automated
+## Features Automated
 The following elements/pages from *The Internet* site are automated:
 
 1. **Checkboxes** – Verify check/uncheck functionality.  
@@ -15,7 +11,7 @@ The following elements/pages from *The Internet* site are automated:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 cypress/
@@ -29,7 +25,7 @@ package.json                      # Dependencies
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone this repository or download the project.  
    ```bash
@@ -44,7 +40,7 @@ package.json                      # Dependencies
 
 ---
 
-## ▶️ Running Tests
+##  Running Tests
 
 - Run Cypress Test Runner (interactive mode):  
   ```bash
@@ -59,7 +55,7 @@ package.json                      # Dependencies
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 - [Cypress](https://docs.cypress.io/)  
 
@@ -67,7 +63,7 @@ All required dependencies are included in `package.json`.
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Base URL for tests should be set in `cypress.config.js`, for example:
   ```javascript
