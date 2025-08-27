@@ -11,25 +11,11 @@ The following elements/pages from *The Internet* site are automated:
 
 ---
 
-##  Project Structure
-
-```
-cypress/
-  ├── e2e/
-  │   └── the_internet.cy.js     # Main test file
-  └── support/
-      └── locators.js            # Page locators for each element
-cypress.config.js                 # Cypress configuration
-package.json                      # Dependencies
-```
-
----
-
 ##  Installation
 
 1. Clone this repository or download the project.  
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/hirucd/WebsiteTestHirushi.git
    cd <your-project-folder>
    ```
 
@@ -46,7 +32,7 @@ package.json                      # Dependencies
   ```bash
   npx cypress open
   ```
-  Select **E2E Testing** → choose a browser → run `the_internet.cy.js`.
+  Select **E2E Testing** → choose a browser → run `Website.cy.js`.
 
 - Run tests in **headless mode**:  
   ```bash
