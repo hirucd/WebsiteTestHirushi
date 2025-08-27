@@ -45,27 +45,3 @@ The following elements/pages from *The Internet* site are automated:
 
 ---
 
-##  Dependencies
-
-- [Cypress](https://docs.cypress.io/)  
-
-All required dependencies are included in `package.json`.
-
----
-
-## Notes
-
-- Base URL for tests should be set in `cypress.config.js`, for example:
-  ```javascript
-  const { defineConfig } = require("cypress");
-
-  module.exports = defineConfig({
-    e2e: {
-      baseUrl: "https://the-internet.herokuapp.com"
-    }
-  });
-  ```
-- Locators for all pages are maintained in `support/locators.js` for easy maintainability.  
-- Tests are designed to be **independent** and use Cypress best practices.
-
----
