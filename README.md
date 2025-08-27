@@ -22,6 +22,10 @@ The following elements/pages from *The Internet* site are automated:
 2. Install dependencies.  
    ```bash
    npm install
+   npm init
+   npm install cypress  --save --include=dev
+   Npm fund
+
    ```
 
 ---
